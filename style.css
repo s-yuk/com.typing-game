@@ -23,16 +23,15 @@ body {
   font-size: 64px;
 }
 
-#timer, #type {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
 #type {
   font-size: 2rem;
   font-weight: bold;
 }
 
+#timer, #type {
+  text-align: center;
+  margin-bottom: 2rem;
+}
 
 #input {
   background: transparent;

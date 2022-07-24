@@ -6,7 +6,7 @@ const RANDOM_SENTENCE = [
   "oseeyojidai",
   "Youtuber31ninn nomikai",
   "jimotonori",
-  "no masuku onigokko"
+  "no mask onigokko"
 ];
 
 const type = document.getElementById("type");
@@ -16,6 +16,8 @@ const timer = document.getElementById("timer");
 input.addEventListener("input", () => {
   const array = type.querySelectorAll("span");
   const value = input.value.split("");
+  
+  // 正解フラグ
   let correct = true;
   array.forEach((charSpan, index) => {
     if (value[index] == null) {
@@ -39,7 +41,7 @@ input.addEventListener("input", () => {
 });
 
 function getRandomSentence() {
-  let randomIndex = Math.floor(Math.random() * 6);
+  let randomIndex = Math.floor(Math.random() * (RANDOM_SENTENCE.length));
   return RANDOM_SENTENCE[randomIndex];
 }
 
