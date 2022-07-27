@@ -1,4 +1,4 @@
-[ゲームリンク](https://yukiyucha.github.io/com.typing-game/)
+[URL](https://yukiyucha.github.io/com.typing-game/)
 
 ## 説明
 コ○ドット関連の文章が出てくるタイピングゲームです｡   
